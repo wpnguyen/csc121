@@ -1,7 +1,11 @@
 import arcade
 
 
-arcade.open_window(800, 600, "Drawing Example")
+# arcade.open_window(800, 600, "Drawing Example")
+window = arcade.Window(600, 600, "Drawing Example")
+window.set_size(599, 600)
+window.set_size(600, 600)
+arcade.set_window(window)
 
 arcade.set_background_color(arcade.color.AIR_SUPERIORITY_BLUE)
 
