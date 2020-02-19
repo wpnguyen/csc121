@@ -119,10 +119,10 @@ while not done :
         done = True
     # squad's tiredness
     if squadTiredness > 8 :
-        print("Your camel died of exhaustion!")
-        print("With no camel, the natives catch up to you and kill you")
+        print("Your squad died of exhaustion!")
+        print("With no squad, the rebel catch up to you and captures you")
         print("on the spot.")
-        print("Game Over.")
+        print("Game Over. well atleast i get to talk to princess Leia")
         print()
         done = True
     elif squadTiredness > 5 :
