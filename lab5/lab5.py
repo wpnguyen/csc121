@@ -141,5 +141,5 @@ while not done :
         print()
 
 # Exit message
-print("Exiting Game. Goodbye.")
+print("Exiting Game. untill next time")
 input("")
