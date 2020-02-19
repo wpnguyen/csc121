@@ -44,8 +44,8 @@ while not done :
     # stop for the night
     elif userInput.upper() == "D" :
         print("You stop for the night.")
-        print("Your camel is happy.")
-        print("The natives don't stop.")
+        print("Your squad is happy.")
+        print("The rebels don't stop.")
         print()
         squadTiredness = 0
         rebelsTraveled += random.randrange(7, 15)
