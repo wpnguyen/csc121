@@ -22,10 +22,10 @@ def draw_section_1():
         for column in range(30):
             # Intead of zero, calculate the proper x location using
             # colum
-            x = 0
+            x = (column * 10) + 5
 
             # Instead of zero, calucate the proper y location using row
-            y = 0
+            y = (row * 10) + 5
 
             arcade.draw_xywh_rectangle_filled(x, y, 5, 5, arcade.color.WHITE)
 
